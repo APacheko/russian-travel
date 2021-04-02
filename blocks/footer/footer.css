@@ -1,0 +1,21 @@
+.footer {
+  font-family: 'Inter', Arial, sans-serif;
+  margin: 0 auto;
+  padding: 92px 48px 24px;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 1023px) {
+  .footer {
+    padding: 88px 24px 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  .footer {
+    display: grid;
+    row-gap: 48px;
+    padding: 97px 16px 24px;
+  }
+}
