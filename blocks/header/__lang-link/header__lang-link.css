@@ -1,13 +1,23 @@
 .header__lang-link {
-  justify-items: end;
   text-decoration: none;
   font-size: 24px;
-  line-height: 28px;
-  font-weight: normal;
+  line-height: 1.15;
+  font-weight: 400;
   color: white;
   margin-right: 18px;
 }
 
 .header__lang-link:last-of-type {
   margin-right: 0;
+}
+
+.header__lang-link:hover {
+  opacity: .8;
+}
+
+@media (max-width: 767px) {
+  .header__lang-link {
+    font-size: 18px;
+    line-height: 1.1;
+  }
 }

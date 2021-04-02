@@ -1,6 +1,24 @@
-
 .intro {
-  padding-top: 92px;
-  padding-left: 148px;
-  padding-right: 442px;
+  font-family: 'Inter', Arial, sans-serif;
+  margin: 0 auto;
+  padding: 92px 148px 0;
 }
+
+@media (max-width: 1279px) {
+  .intro {
+    padding: 92px 48px 0;
+  }
+}
+
+@media (max-width: 1023px) {
+  .intro {
+    padding: 88px 24px 0;
+  }
+}
+
+@media (max-width: 767px) {
+  .intro {
+    padding: 64px 16px 0;
+  }
+}
+
