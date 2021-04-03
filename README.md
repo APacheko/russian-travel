@@ -1,5 +1,5 @@
 # Путешествие по России
-* [Ссылка на проект russian-travel] (https://apacheko.github.io/russian-travel/)
+* [Ссылка на проект в Russian-travel](https://apacheko.github.io/russian-travel)
 
 ### Используемые технолонии
 * Flex-box
