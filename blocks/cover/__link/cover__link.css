@@ -3,7 +3,7 @@
   text-decoration: none;
   color: white;
   background-image: url(../../../images/cover-trains.jpg);
-  background-size: 100% 100%;
+  background-size: cover;
   min-height: 740px;
   display: flex;
   flex-direction: column;
@@ -26,6 +26,7 @@
 
 .cover__link:hover::after {
   opacity: .8;
+  transition: .3s linear;
 }
 
 @media (max-width: 1279px) {
